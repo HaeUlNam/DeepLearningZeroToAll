@@ -30,7 +30,6 @@ update = W.assign(descent)
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
-
 for step in range(20):
     # W 값 변경 후에 cost function 조절
     sess.run(update, feed_dict={X: x_data, Y: y_data})
