@@ -28,7 +28,6 @@ update = W.assign(descent)
 
 
 sess = tf.Session()
-# Initializes global variables in the graph.
 sess.run(tf.global_variables_initializer())
 
 for step in range(20):
