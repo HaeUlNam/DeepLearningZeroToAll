@@ -26,7 +26,6 @@ update = W.assign(descent)
 # optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.2)
 # train = optimizer.minimize(cost)
 
-
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
