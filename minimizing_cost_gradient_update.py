@@ -7,7 +7,7 @@ y_data = [1,2,3]
 # (아래 tf.Variable 값을 변경하며, 적용시켜 보자.)
 # 다만, 적당한 learning rate를 설정해주어야 한다.
 
-#W = tf.Variable(tf.random_normal([1]), name='weight')
+# W = tf.Variable(tf.random_normal([1]), name='weight')
 W = tf.Variable(50000.0)
 
 X = tf.placeholder(tf.float32)
