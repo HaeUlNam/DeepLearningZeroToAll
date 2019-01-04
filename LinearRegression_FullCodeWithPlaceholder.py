@@ -21,4 +21,3 @@ for step in range(2001):
 
     if step % 20 == 0:
         print(step, cost_val, W_val, b_val)
-
