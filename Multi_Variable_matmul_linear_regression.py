@@ -1,5 +1,8 @@
 import tensorflow as tf
 
+# seed : setting the seed number for random number generation for reproducibility
+tf.set_random_seed(777)
+
 # data
 x_data = [[73., 80., 75.],
           [93., 88., 93.],
