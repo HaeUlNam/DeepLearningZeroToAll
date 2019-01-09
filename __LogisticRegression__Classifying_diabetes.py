@@ -33,7 +33,7 @@ accuracy = tf.reduce_mean(tf.cast(tf.equal(Y, hypothesis),dtype=tf.float32))
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
 
-    for step in range(10010):
+    for step in range(1001000):
         cost_val, _ = sess.run([cost, train], feed_dict={X: x_data, Y: y_data})
         if step % 200:
             print(step, cost_val)
